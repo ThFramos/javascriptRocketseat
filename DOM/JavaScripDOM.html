@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="app">
+        <div id="rip">
+            <input type="text" class="nome" id="nome"/>
+            <input type="text" class="nome" id="nome2"/>
+            <button class="botao"> OK </button>
+        </div>
+        <div class="box">
+
+        </div>
+
+    </div>
+
+    <script>
+
+        //TRABALHANDO COM A DOM
+
+        //var inputElement = document.getElementById('nome');
+        /*var inputElement = document.getElementsByTagName('input')[0];
+        */
+       /*var inputElement = document.querySelector('div#app #nome2');*/
+       /*var inputElement = document.querySelector('input[]name=nome');*/
+       /*var inputElement = document.querySelector('input[id=nome]')
+        var btnElement = document.querySelector('button.botao');
+
+        btnElement.onclick = function(){
+            var text= inputElement.value;
+            alert(text);
+        }
+
+        console.log(inputElement);
+        */
+
+
+        // CRIANDO E DELETANDO ELEMENTO NA DOM
+        /*
+        var linkElement = document.createElement('a');
+        linkElement.setAttribute('href', 'http://globo.com');
+
+        var textElement = document.createTextNode('Site');
+        linkElement.appendChild(textElement);
+
+        var containerElement = document.querySelector('#app');
+        containerElement.appendChild(linkElement);
+
+        var inputElement = document.querySelector('#rip');
+        containerElement.removeChild(inputElement);*/
+
+        // ALTERANDO ESTILO CSS
+
+        var boxElement = document.querySelector('#rip');
+
+        boxElement.style.backgroundColor = 'red';
+        
+    </script>
+    
+</body>
+</html>
