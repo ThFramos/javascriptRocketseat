@@ -1,2 +1,2 @@
 # javascriptRocketseat
-Curso de Javascript &amp;&amp;  ES6+
+Curso de Javascript Básico
